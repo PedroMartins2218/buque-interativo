@@ -240,7 +240,7 @@
         };
         const msg = map[choice] || "Bora combinar algo simples e legal?";
         // Prefill WhatsApp without forcing a send
-        const text = encodeURIComponent("bibi berti...\n\n" + msg);
+        const text = encodeURIComponent("\n\n" + msg);
         const wa = `https://wa.me/13991496607?text=${text}`;
         window.open(wa, '_blank', 'noopener');
       });
